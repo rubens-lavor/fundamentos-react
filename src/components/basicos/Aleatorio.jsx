@@ -4,6 +4,10 @@ export default (props) => {
     const numero = parseInt(Math.random() * (props.max - props.min) + props.min)
 
     return (
-        <h3>Numero aleatório de 1 a 6 = {numero}</h3>
+        <div>
+            <h3>Valor Máximo {props.max - 1}</h3>
+            <h3>Valor Mínimo {props.min}</h3>
+            <h3>Numero Escolhido = {numero}</h3>
+        </div>
     )
 }
