@@ -17,19 +17,19 @@ export default function App(props) {
 
 
 
-                <Card titulo="#04 - Desafio Aleatório">
+                <Card titulo="#04 - Desafio Aleatório" color="#FA6900">
 
                     <Aleatorio max={7} min={1} />
 
                 </Card>
 
-                <Card titulo="#03 - Fragmento">
+                <Card titulo="#03 - Fragmento" color="#E94C6F">
 
                     <Fragmento />
 
                 </Card>
 
-                <Card titulo="#02 - Com Parâmentro">
+                <Card titulo="#02 - Com Parâmentro" color="#1FDA9A ">
 
                     <ComParametro
                         titulo="Situação do Aluno"
@@ -40,7 +40,7 @@ export default function App(props) {
                 </Card>
 
 
-                <Card titulo="#01 - Primeiro Exemplo">
+                <Card titulo="#01 - Primeiro Exemplo" color="#F0A830">
                     <Primeiro />
                 </Card>
 
