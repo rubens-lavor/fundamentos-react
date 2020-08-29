@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom';
 
 import "./index.css";
 
-const tag = <strong>Olá React!!!</strong>
+import Primeiro from './components/basicos/Primeiro';
+import ComParametro from './components/basicos/ComParametro'
 
 ReactDOM.render(
     <div>
-        { tag }
+        <Primeiro />
+        <ComParametro
+            titulo="Segundo Componente"
+            subtitulo="!!!"
+        />
     </div>,
     document.getElementById("root")
 );
