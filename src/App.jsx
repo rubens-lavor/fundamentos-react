@@ -5,7 +5,8 @@ import Primeiro from './components/basicos/Primeiro';
 import ComParametro from './components/basicos/ComParametro';
 import Fragmento from './components/basicos/Fragmento';
 import Aleatorio from './components/basicos/Aleatorio';
-import Familia from "./components/basicos/Familia"
+import Familia from "./components/basicos/Familia";
+import FamiliaMembro from "./components/basicos/FamiliaMembro";
 
 import Card from "./components/layout/Card"
 
@@ -19,7 +20,14 @@ export default function App(props) {
 
                 <Card titulo="#05 - Componente com filhos" color="#588C73">
 
-                    <Familia sobrenome="Lima"/>
+                    <Familia sobrenome="Lima">
+
+                        <FamiliaMembro nome="Pedro" />
+                        <FamiliaMembro nome="Ana" />
+                        <FamiliaMembro nome="Gustavo" />
+                        
+                    </Familia>
+
 
                 </Card>
 
