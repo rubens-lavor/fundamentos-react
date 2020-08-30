@@ -7,6 +7,9 @@ import Fragmento from './components/basicos/Fragmento';
 import Aleatorio from './components/basicos/Aleatorio';
 import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
+import ListaAlunos from "./components/repeticao/ListaAlunos";
+import TabelaProdutos from "./components/repeticao/TabelaProdutos";
+
 
 import Card from "./components/layout/Card"
 
@@ -18,6 +21,18 @@ export default function App(props) {
 
             <div className="Cards">
 
+                <Card titulo="#07 - Repetição Produtos" color="#FF432E">
+
+                    <TabelaProdutos />
+
+                </Card>
+
+                <Card titulo="#06 - Repetição Alunos" color="#FF4C65">
+
+                    <ListaAlunos />
+
+                </Card>
+
                 <Card titulo="#05 - Componente com filhos" color="#588C73">
 
                     <Familia sobrenome="Lima">
@@ -25,7 +40,7 @@ export default function App(props) {
                         <FamiliaMembro nome="Pedro" />
                         <FamiliaMembro nome="Ana" />
                         <FamiliaMembro nome="Gustavo" />
-                        
+
                     </Familia>
 
 
