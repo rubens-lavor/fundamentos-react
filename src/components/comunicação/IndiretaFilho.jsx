@@ -6,11 +6,7 @@ export default (props) => {
     return (
         <div>
             <div>Filho</div>
-            <button onClick={
-                function(ev){
-                    props.quandoClicar("João", 53, true)
-                }
-            }>
+            <button onClick={(ev) => { props.quandoClicar("João", 53, true) }}>
                 Fornecer Informações
             </button>
         </div>
