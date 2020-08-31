@@ -17,6 +17,7 @@ import Card from "./components/layout/Card"
 import UsuarioInfo from './components/condicional/UsuarioInfo';
 import DiretaPai from './components/comunicação/DiretaPai';
 import IndiretaPai from './components/comunicação/IndiretaPai';
+import Input from './components/formulario/Input';
 
 export default function App(props) {
     return (
@@ -25,6 +26,12 @@ export default function App(props) {
             <h1>Fundamentos React</h1>
 
             <div className="Cards">
+
+                <Card titulo="#11 - Componente Controlado (Input)" color="#2B9DF9">
+
+                    <Input />
+
+                </Card>
 
                 <Card titulo="#10 - Comunicação Inireta" color="#8BAD39">
 
