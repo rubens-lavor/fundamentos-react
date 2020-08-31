@@ -28,9 +28,9 @@ export default function App(props) {
 
                     <ParOuImpar numero={20} />
                     <UsuarioInfo usuario={{nome:"Fernando"}} />
-                    <UsuarioInfo usuario={{email:"Fernando"}} />
+                    {/*<UsuarioInfo usuario={{email:"Fernando"}} />
                     <UsuarioInfo usuario={{nome:""}} />
-                    <UsuarioInfo />
+                    <UsuarioInfo />*/}
                 </Card>
 
                 <Card titulo="#07 - Repetição Produtos" color="#FF432E">
