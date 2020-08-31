@@ -16,6 +16,7 @@ import ParOuImpar from "./components/condicional/ParOuImpar";
 import Card from "./components/layout/Card"
 import UsuarioInfo from './components/condicional/UsuarioInfo';
 import DiretaPai from './components/comunicação/DiretaPai';
+import IndiretaPai from './components/comunicação/IndiretaPai';
 
 export default function App(props) {
     return (
@@ -25,10 +26,16 @@ export default function App(props) {
 
             <div className="Cards">
 
+                <Card titulo="#10 - Comunicação Inireta" color="#8BAD39">
+
+                    <IndiretaPai />
+
+                </Card>
+
                 <Card titulo="#09 - Comunicação Direta" color="#59323C">
 
                     <DiretaPai />
-                    
+
                 </Card>
 
                 <Card titulo="#08 - Renderização Condicional" color="#982395">
