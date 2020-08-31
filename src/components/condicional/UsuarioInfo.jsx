@@ -13,9 +13,7 @@ export default (props) => {
                     <p>Seja bem vindo <strong>Amigão</strong></p>
                 </Else>
             </If>
-            {/*<If test={!usuario || !usuario.nome}>
-                Seja bem vindo <strong>Amigão</strong>!
-            </If>*/}
+            
         </div>
     )
 }

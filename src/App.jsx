@@ -15,6 +15,7 @@ import ParOuImpar from "./components/condicional/ParOuImpar";
 
 import Card from "./components/layout/Card"
 import UsuarioInfo from './components/condicional/UsuarioInfo';
+import DiretaPai from './components/comunicação/DiretaPai';
 
 export default function App(props) {
     return (
@@ -24,10 +25,16 @@ export default function App(props) {
 
             <div className="Cards">
 
+                <Card titulo="#09 - Comunicação Direta" color="#59323C">
+
+                    <DiretaPai />
+                    
+                </Card>
+
                 <Card titulo="#08 - Renderização Condicional" color="#982395">
 
                     <ParOuImpar numero={20} />
-                    <UsuarioInfo usuario={{nome:"Fernando"}} />
+                    <UsuarioInfo usuario={{ nome: "Fernando" }} />
                     {/*<UsuarioInfo usuario={{email:"Fernando"}} />
                     <UsuarioInfo usuario={{nome:""}} />
                     <UsuarioInfo />*/}
