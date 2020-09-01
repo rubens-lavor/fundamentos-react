@@ -19,6 +19,7 @@ import DiretaPai from './components/comunicação/DiretaPai';
 import IndiretaPai from './components/comunicação/IndiretaPai';
 import Input from './components/formulario/Input';
 import Contador from './components/contador/Contador';
+import Mega from './components/mega/Mega';
 
 export default function App(props) {
     return (
@@ -28,9 +29,15 @@ export default function App(props) {
 
             <div className="Cards">
 
+                <Card titulo="#13 - Mega" color="#721272">
+
+                    <Mega qtde={6}/>
+
+                </Card>
+
                 <Card titulo="#12 - Contador" color="#424242">
 
-                    <Contador numeroInicial={10}/>
+                    <Contador numeroInicial={10} />
 
                 </Card>
 
